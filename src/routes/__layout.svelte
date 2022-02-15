@@ -3,6 +3,9 @@
     import Logo1 from '$img/SmokinGunORIG.webp'
  </script>          
  
+ <slot></slot> 
+ 
  <img src={Trademark} alt="Pinche Poutine Logo">
  <img src={Logo1} alt="Claire Voyant">
+
  
