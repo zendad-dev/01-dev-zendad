@@ -1,11 +1,9 @@
-<script>          
-    import Trademark from '$img/PinchePoutineTrademark.jpg'
-    import Logo1 from '$img/SmokinGunORIG.webp'
- </script>          
- 
- <slot></slot> 
- 
- <img src={Trademark} alt="Pinche Poutine Logo">
- <img src={Logo1} alt="Claire Voyant">
+<!-- src/routes/__layout.svelte -->
+<nav>
+	<a href="/">Home</a>
+	<a href="/about">About</a>
+	<a href="/settings">Settings</a>
+</nav>
 
+ <slot></slot> 
  
