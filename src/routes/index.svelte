@@ -7,15 +7,16 @@
 </script>
 
 
-<h1>Welcome to Declutter</h1>
+<h1>Declutter</h1>
 <svelte:component this={selected} />
 <button on:click={()=> selected = Metro}>
-	Make it Metro 
+	Make it Montreal
 </button>
 
 <button on:click={()=> selected = Rect}>
 	Make it square
 </button>
+
 <button on:click={()=> selected = Circle}>
 	Make it circle
 </button>
