@@ -1,8 +1,20 @@
 <!-- src/routes/__layout.svelte -->
 <nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/settings">Settings</a>
+	<ul>
+		<li>
+		<a href="/">Home</a>
+		</li>
+		<li>
+		<a href="/about">About</a>
+		</li>
+		<li>
+			<a href="/login">Login</a>
+		</li>
+		<li>	
+			<a href="/settings">Settings</a>
+		</li>
+	</ul>
+
 </nav>
 
  <slot></slot> 

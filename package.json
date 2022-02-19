@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
+    "firebase": "^9.4.1",
     "vite-imagetools": "^4.0.3"
   }
 }

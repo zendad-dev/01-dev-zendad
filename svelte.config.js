@@ -27,7 +27,10 @@ const config = {
 			}
 		}),
 		trailingSlash: 'always',
-		vite: {
+		vite: ({
+			ssr: {
+				external: ['firebase'],
+			},
 			plugins: [imagetools],
 			resolve: {
 				alias: {
@@ -35,7 +38,7 @@ const config = {
 					'@sveltejs/site-kit': path.resolve('../../packages/site-kit/src/lib')
 				}
 			}
-		}
+		})
 	}
 };
 
