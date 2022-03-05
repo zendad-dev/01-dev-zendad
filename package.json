@@ -1,5 +1,5 @@
 {
-  "name": "04-dev-declutter",
+  "name": "01-dev-zendad",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
